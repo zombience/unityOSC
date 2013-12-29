@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 204.0, 105.0, 856.0, 480.0 ],
+		"rect" : [ 231.0, 72.0, 856.0, 480.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 204.0, 105.0, 856.0, 480.0 ],
+		"defrect" : [ 231.0, 72.0, 856.0, 480.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 16.0,
@@ -331,21 +331,6 @@
 					"numoutlets" : 1,
 					"patching_rect" : [ 600.0, 230.0, 20.0, 20.0 ],
 					"outlettype" : [ "int" ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "rampsmooth~ 100 3000",
-					"id" : "obj-84",
-					"fontname" : "Arial",
-					"presentation_rect" : [ 411.0, 143.0, 0.0, 0.0 ],
-					"numinlets" : 3,
-					"fontsize" : 16.0,
-					"numoutlets" : 1,
-					"patching_rect" : [ 410.0, 320.0, 180.0, 25.0 ],
-					"outlettype" : [ "signal" ]
 				}
 
 			}
