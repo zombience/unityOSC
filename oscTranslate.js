@@ -7,10 +7,9 @@ function list(val)
 	{
 		for(var i = 0; i < arguments.length; i++)
 		{
-			post(arguments[i]);
+		//	post(arguments[i]);
 		}
 	}
 	post();
 	outlet(0, arguments[0], arguments[1]);
-
 }
